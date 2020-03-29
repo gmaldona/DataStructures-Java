@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <orders>
+        <order orderNumber="123-456"/>
+        <order orderNumber="234-567"/>
+        <order orderNumber="345-678"/>
+    </orders>
+    <products>
+        <product name="Snickers" isbn="12345678" unitPrice="0.99" taxable="true"/>
+        <product name="Reeses" taxable="false" unitPrice="0.99" isbn="23456789"/>
+        <product name="Almond Joy" unitPrice="0.99" isbn="34567890"/>
+    </products>
+</data>

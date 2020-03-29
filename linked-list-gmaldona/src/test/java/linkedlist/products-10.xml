@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <product name="Snickers" isbn="123-456-78" unitPrice="0.99" taxable="true"/>
+    <product name="Milky Way" isbn="234-567-89" unitPrice="0.98" taxable="false"/>
+    <product name="M &amp; Ms" isbn="345-678-90" unitPrice="0.97" taxable="false"/>
+    <product name="Mounds" isbn="456-789-01" unitPrice="0.96" taxable="true"/>
+    <product name="Reeses" isbn="567-890-12" unitPrice="0.95" taxable="true"/>
+    <product taxable="true" name="Almond Joy" isbn="678-901-23" unitPrice="0.94"/>
+    <product name="Kit Kat" taxable="false" isbn="789-012-34" unitPrice="0.93"/>
+    <product name="Mr. Goodbar" isbn="890-123-45" taxable="true" unitPrice="0.92"/>
+    <product name="Hershey Bar" isbn="901-234-56" unitPrice="0.91" taxable="false"/>
+    <product name="Cadbury" isbn="012-345-67" unitPrice="0.90"/>
+</products>
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <product name="Snickers" isbn="123-456-78" unitPrice="0.99" taxable="true"/>
+    <product name="Milky Way" taxable="false" isbn="234-567-89" unitPrice="0.98" />
+</products>
+
+

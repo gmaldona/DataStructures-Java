@@ -5,7 +5,6 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
 
 // No changes are required for this class
-
 public class XmlReader {
     private final String inputFileName;
     private XmlHandler myXmlHandler = null;

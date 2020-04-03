@@ -3,6 +3,8 @@
  */
 package stackqueue;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,19 +12,20 @@ public class Main {
         XmlReader myXmlReader = new XmlReader("data.xml");
 
         // Queue operations
-//        OrderQueue orders = myXmlReader.getOrders(); // Uncomment for testing
-//        Order firstOrder = orders.dequeue();
-//        System.out.println("DEQUEUE: " + firstOrder.getOrderNumber());
-//        if (orders.peek() != null) {
-//            System.out.println("PEEK: " + orders.peek().getOrderNumber());
-//        }
+       OrderQueue orders = myXmlReader.getOrders(); // Uncomment for testing
+        System.out.println(orders.back.order);
+        Order firstOrder = orders.dequeue();
+        System.out.println("DEQUEUE: " + firstOrder.getOrderNumber());
+        if (orders.peek() != null) {
+            System.out.println("PEEK: " + orders.peek().getOrderNumber());
+        }
 
         // Stack operations
-//        ProductStack products = myXmlReader.getProducts(); // Uncomment for testing
-//        Product firstProduct = products.pop();
-//        System.out.println("POP: " + firstProduct.values());
-//        if (products.peek() != null) {
-//            System.out.println("PEEK: " + products.peek().values());
-//        }
+        ProductStack products = myXmlReader.getProducts(); // Uncomment for testing
+        Product firstProduct = products.pop();
+        System.out.println("POP: " + firstProduct.values());
+        if (products.peek() != null) {
+            System.out.println("PEEK: " + products.peek().values());
+        }
     }
 }

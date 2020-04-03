@@ -10,10 +10,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class Tests {
     @Test
     void testOrderQueue() {
-        int assertionNum = 0;
         Order o1 = new Order("12345678", null);
         Order o2 = new Order("12345678", null);
         OrderQueue oq = new OrderQueue();
+        int assertionNum = 0;
         assertTrue(oq.isEmpty(), "Newly instantaited OrderQueue is not empty - " + (++assertionNum));
         assertEquals(null, oq.peek(), "Peek on empty queue is not null - "  + (++assertionNum));
         assertEquals(null, oq.dequeue(), "Dequeue on empty queue is not null - " + (++assertionNum));

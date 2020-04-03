@@ -2,6 +2,9 @@ package stackqueue;
 
 public class NonCommercialAccount extends Account{
 
-  // Use from the "interfaces" assignment
+    public NonCommercialAccount(String accountNumber, Customer customer){
+        // Call parent Constructor
+        super(accountNumber, customer);
 
+    }
 }

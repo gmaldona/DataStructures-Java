@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<customers>
+    <customer lastName="Evans" firstName="James" streetAddress="123 Main St." zipCode="13126">
+        <account commercial="true" taxId="NY-1234" accountNumber="123-45-678"/>
+    </customer>
+    <customer firstName="Stephen" lastName="Albert"  streetAddress="234 Elm St." zipCode="13126">
+        <account accountNumber="234-56-789" commercial="false"/>
+    </customer>
+    <customer firstName="Stephen" lastName="Morgan"  zipCode="19144" streetAddress="345 Pine St.">
+        <account commercial="true" accountNumber="234-56-788" taxId="PA-2345"/>
+    </customer>
+</customers>

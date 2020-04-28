@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <customers>
+        <customer lastName="Evans" firstName="James" streetAddress="123 Main St." zipCode="13126">
+            <account commercial="true" taxId="NY-1234" accountNumber="123-45-678"/>
+        </customer>
+        <customer firstName="Stephen" lastName="Albert"  streetAddress="234 Elm St." zipCode="13126">
+            <account accountNumber="234-56-789" commercial="false"/>
+        </customer>
+        <customer firstName="Stephen" lastName="Morgan"  zipCode="19144" streetAddress="345 Pine St.">
+            <account commercial="true" accountNumber="234-56-788" taxId="PA-2345"/>
+        </customer>
+    </customers>
+    <products>
+        <product name="Snickers" isbn="123-456-78" unitPrice="0.99" taxable="true"/>
+        <product name="Milky Way" isbn="234-567-89" unitPrice="0.98" taxable="false"/>
+        <product name="M &amp; Ms" isbn="345-678-90" unitPrice="0.97" taxable="false"/>
+        <product name="Mounds" isbn="456-789-01" unitPrice="0.96" taxable="true"/>
+        <product name="Reeses" isbn="567-890-12" unitPrice="0.95" taxable="true"/>
+        <product taxable="true" name="Almond Joy" isbn="678-901-23" unitPrice="0.94"/>
+        <product name="Kit Kat" taxable="false" isbn="789-012-34" unitPrice="0.93"/>
+        <product name="Mr. Goodbar" isbn="890-123-45" taxable="true" unitPrice="0.92"/>
+        <product name="Hershey Bar" isbn="901-234-56" unitPrice="0.91" taxable="false"/>
+        <product name="Cadbury" isbn="012-345-67" unitPrice="0.90"/>
+    </products>
+</data>

@@ -1,4 +1,4 @@
-# DataStructures Written in Java
+# Data Structures and Algorithms Written in Java
 Data Structures implementation in school assignments. The school assignment is a large scale java console application that simulates the backend of setting up customer accounts, ordering items and storing orders in data structures.
 
 ## [Linked Lists](https://github.com/gmaldona/DataStructures-Java/tree/master/linked-list-gmaldona/src/main/java/linkedlist)

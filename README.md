@@ -4,7 +4,7 @@ Data Structures implementation in school assignments. The school assignment is a
 ## [Linked Lists](https://github.com/gmaldona/DataStructures-Java/tree/master/linked-list-gmaldona/src/main/java/linkedlist)
 
 + Nodes are linked together one after another. The head node is the starting point to find other nodes. (Linear Data Structure)
-+ Linked Lists have a time complexity of O(n)
++ Linked Lists have a time complexity of O(n) 
 
 ## [Stacks and Queues](https://github.com/gmaldona/DataStructures-Java/tree/master/stacke-queues-gmaldona/src/main/java/stackqueue)
 

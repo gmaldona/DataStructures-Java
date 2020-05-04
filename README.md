@@ -9,7 +9,7 @@ Data Structures implementation in school assignments. The school assignment is a
 ## [Stacks and Queues](https://github.com/gmaldona/DataStructures-Java/tree/master/stacke-queues-gmaldona/src/main/java/stackqueue)
 
 + In stacks, nodes are pushed on top of each other and last one of top pops off first. Last in, First out (LIFO)
-+ In queues, nodes are queued and dequeues in order. First in, First out (FIFO)
++ In queues, nodes are queued and dequeues in order. First in, First out (FIFO) 
 + Stacks and Queues have a time complexity of O(n)
 
 ## [Binary Search Tree](https://github.com/gmaldona/DataStructures-Java/tree/master/bst-2-gmaldona/src/main/java/bst)

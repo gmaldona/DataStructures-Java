@@ -12,7 +12,7 @@ Data Structures implementation in school assignments. The school assignment is a
 + In queues, nodes are queued and dequeues in order. First in, First out (FIFO) 
 + Stacks and Queues have a time complexity of O(n)
 
-## [Binary Search Tree](https://github.com/gmaldona/DataStructures-Java/tree/master/bst-2-gmaldona/src/main/java/bst)
+## [Binary Search Tree](https://github.com/gmaldona/DataStructures-Java/blob/master/binary-search-trees-gmaldona/src/main/java/bst/CustomerNode.java)
 
 + The binary search tree can insert or remove values comparing the parameterized node to the nodes in the tree
 + The binary search tree can also check if a value in contained in the tree
